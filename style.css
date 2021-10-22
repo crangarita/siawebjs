@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+table {
+    overflow: hidden;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 2px;
+    display: table;
+}
+thead, tr {width: 100%;}
+thead tr {
+    background-color: rgb(128, 213, 253);
+}
+thead th {
+    color: white;
+}
+th {
+    border: 1px solid #dee2e6;
+    box-sizing: border-box;
+    vertical-align: inherit;
+    display: table-cell;
+    padding: .75rem;
+}
+th:first-child {
+    border-top-left-radius: 5px;
+}
+th:last-child {
+    border-top-left-right: 5px;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
